@@ -58,7 +58,25 @@
       top: -60px;
       left: 248px;
       transform: rotate(18deg);
+      animation: pankhInOut 5s ease-in-out infinite;
+  }
 
+  @keyframes pankhInOut {
+      0% {
+          transform: scale(0);
+      }
+
+      25% {
+          tranform: scale(0.5);
+      }
+
+      50% {
+          transform: scale(1);
+      }
+
+      100% {
+          transform: scale(0);
+      }
   }
 
   .date {
