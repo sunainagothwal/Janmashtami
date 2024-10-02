@@ -153,21 +153,6 @@
       margin-right: 10px;
   }
 
-  .QR {
-      background: url(../images/qr.jpg) no-repeat center;
-      height: 100px;
-      width: 100px;
-      background-size: cover;
-      left: 100px;
-
-  }
-
-  .f_qr {
-      width: 15%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  }
 
   .footer_wrap {
       display: flex;
