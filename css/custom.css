@@ -138,8 +138,7 @@
       border-radius: 50px;
       width: 85%;
       padding: 20px 10px;
-
-
+      padding-left: 180px;
   }
 
   .link {
@@ -168,5 +167,10 @@
       .footer_wrap {
           flex-direction: column;
           margin-bottom: 20px;
+          align-items: center;
       }
+
+      /* .file {
+          flex-direction: row;
+      } */
   }
